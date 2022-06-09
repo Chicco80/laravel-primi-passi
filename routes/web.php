@@ -21,14 +21,16 @@ Route::get('/', function () {
             'contatti',
             'social'
         ]
+        
     ];
     return view('home',$data);
 })->name ('home');
 
 
-Route::get('/chi siamo', function () {
-    return view('chi siamo');
-})->name ('chi siamo');
+
+Route::get('/chi-siamo', function () {
+    return view('chi-siamo');
+})->name ('chi-siamo');
 
 Route::get('/contatti', function () {
     return view('contatti');

@@ -9,6 +9,7 @@
 <body>
     <h1>Ciao siamo contatti</h1>
     <a href="{{route('home')}}">torna a home</a>
+    <a href="{{route('chi siamo')}}">vai a chi siamo</a>
     
 </body>
 </html>

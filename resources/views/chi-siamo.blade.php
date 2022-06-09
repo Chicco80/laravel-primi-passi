@@ -7,8 +7,9 @@
     <title>more</title>
 </head>
 <body>
-    <h1>Ciao sono more</h1>
+    <h1>Ciao sono chi siamo</h1>
     <a href="{{route('home')}}">Torna a home</a>
+    <a href="{{route('contatti')}}">Vai a contatti</a>
     
 </body>
 </html>
