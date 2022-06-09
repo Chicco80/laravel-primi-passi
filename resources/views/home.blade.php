@@ -13,7 +13,7 @@
         <h1>Ciao Mondo</h1>
         <ul>
             @foreach($links as $link)
-            <li><a href="">{{$link}}</a></li>
+            <li><a href="{{$link}}">{{$link}}</a></li>
             @endforeach
         </ul>
     </div>

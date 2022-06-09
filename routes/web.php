@@ -17,7 +17,7 @@ Route::get('/', function () {
     $data = [
         'links'=>[
             'home',
-            'chi siamo',
+            'chi-siamo',
             'contatti',
             'social'
         ]
@@ -35,3 +35,7 @@ Route::get('/chi-siamo', function () {
 Route::get('/contatti', function () {
     return view('contatti');
 })->name ('contatti');
+
+Route::get('/social', function () {
+    return view('social');
+})->name ('social');

@@ -7,7 +7,7 @@
     <title>Contatti</title>
 </head>
 <body>
-    <h1>Ciao siamo contatti</h1>
+    <h1>Ciao siamo i social</h1>
     <a href="{{route('home')}}">torna a home</a>
     <a href="{{route('chi-siamo')}}">vai a chi siamo</a>
     
