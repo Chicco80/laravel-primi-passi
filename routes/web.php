@@ -29,13 +29,39 @@ Route::get('/', function () {
 
 
 Route::get('/chi-siamo', function () {
-    return view('chi-siamo');
+    $data = [
+        'links'=>[
+            'home',
+            
+            'contatti',
+            'social'
+        ]
+        
+    ];
+    return view('chi-siamo',$data);
 })->name ('chi-siamo');
 
 Route::get('/contatti', function () {
-    return view('contatti');
+    $data = [
+        'links'=>[
+            'home',
+            'chi-siamo',
+            'social'
+        ]
+        
+    ];
+    return view('contatti',$data);
 })->name ('contatti');
 
 Route::get('/social', function () {
-    return view('social');
+    $data = [
+        'links'=>[
+            'home',
+            'chi-siamo',
+            'contatti',
+            
+        ]
+        
+    ];
+    return view('social',$data);
 })->name ('social');
